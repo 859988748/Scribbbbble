@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A4103B819690EEB003A8204 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4103B719690EEB003A8204 /* Vertex.m */; };
-		4A4103BB19692896003A8204 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4103BA19692896003A8204 /* Dot.m */; };
-		4A4103C419693BBF003A8204 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4103C319693BBF003A8204 /* Stroke.m */; };
-		4A5873E6196B8B9800F64013 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873E5196B8B9800F64013 /* CanvasViewGenerator.m */; };
-		4A5873E9196B8CA800F64013 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873E8196B8CA800F64013 /* CanvasView.m */; };
-		4A5873EF196B94EB00F64013 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873EE196B94EB00F64013 /* PaperCanvasView.m */; };
-		4A5873F2196B950700F64013 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873F1196B950700F64013 /* ClothCanvasView.m */; };
-		4A5873F5196B95F000F64013 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873F4196B95F000F64013 /* PaperCanvasViewGenerator.m */; };
-		4A5873F8196B960400F64013 /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873F7196B960400F64013 /* ClothCanvasViewGenerator.m */; };
 		4A5873FB196B980F00F64013 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873FA196B980F00F64013 /* CanvasViewController.m */; };
+		4ACF6B5719717826007F557E /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4319717826007F557E /* CanvasView.m */; };
+		4ACF6B5819717826007F557E /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4519717826007F557E /* ClothCanvasView.m */; };
+		4ACF6B5919717826007F557E /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4719717826007F557E /* PaperCanvasView.m */; };
+		4ACF6B5A19717826007F557E /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4A19717826007F557E /* CanvasViewGenerator.m */; };
+		4ACF6B5B19717826007F557E /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4C19717826007F557E /* ClothCanvasViewGenerator.m */; };
+		4ACF6B5C19717826007F557E /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4E19717826007F557E /* PaperCanvasViewGenerator.m */; };
+		4ACF6B5D19717826007F557E /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B5119717826007F557E /* Dot.m */; };
+		4ACF6B5E19717826007F557E /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B5419717826007F557E /* Stroke.m */; };
+		4ACF6B5F19717826007F557E /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B5619717826007F557E /* Vertex.m */; };
 		4AE98BC0196909580080A597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE98BBF196909580080A597 /* Foundation.framework */; };
 		4AE98BC2196909580080A597 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE98BC1196909580080A597 /* CoreGraphics.framework */; };
 		4AE98BC4196909580080A597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE98BC3196909580080A597 /* UIKit.framework */; };
@@ -42,27 +42,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A4103B519690AF8003A8204 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
-		4A4103B619690EEB003A8204 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
-		4A4103B719690EEB003A8204 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
-		4A4103B919692896003A8204 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
-		4A4103BA19692896003A8204 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
-		4A4103C219693BBF003A8204 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
-		4A4103C319693BBF003A8204 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
-		4A5873E4196B8B9800F64013 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
-		4A5873E5196B8B9800F64013 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
-		4A5873E7196B8CA800F64013 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
-		4A5873E8196B8CA800F64013 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
-		4A5873ED196B94EB00F64013 /* PaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
-		4A5873EE196B94EB00F64013 /* PaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
-		4A5873F0196B950700F64013 /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
-		4A5873F1196B950700F64013 /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
-		4A5873F3196B95F000F64013 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
-		4A5873F4196B95F000F64013 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
-		4A5873F6196B960400F64013 /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
-		4A5873F7196B960400F64013 /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
 		4A5873F9196B980F00F64013 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		4A5873FA196B980F00F64013 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		4ACF6B4219717826007F557E /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		4ACF6B4319717826007F557E /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		4ACF6B4419717826007F557E /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		4ACF6B4519717826007F557E /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		4ACF6B4619717826007F557E /* PaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		4ACF6B4719717826007F557E /* PaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		4ACF6B4919717826007F557E /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		4ACF6B4A19717826007F557E /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		4ACF6B4B19717826007F557E /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		4ACF6B4C19717826007F557E /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		4ACF6B4D19717826007F557E /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		4ACF6B4E19717826007F557E /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		4ACF6B5019717826007F557E /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		4ACF6B5119717826007F557E /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		4ACF6B5219717826007F557E /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		4ACF6B5319717826007F557E /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		4ACF6B5419717826007F557E /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		4ACF6B5519717826007F557E /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		4ACF6B5619717826007F557E /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
 		4AE98BBC196909580080A597 /* Scribbbbble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribbbbble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE98BBF196909580080A597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AE98BC1196909580080A597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -105,6 +105,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ACF6B4119717826007F557E /* CanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B4219717826007F557E /* CanvasView.h */,
+				4ACF6B4319717826007F557E /* CanvasView.m */,
+				4ACF6B4419717826007F557E /* ClothCanvasView.h */,
+				4ACF6B4519717826007F557E /* ClothCanvasView.m */,
+				4ACF6B4619717826007F557E /* PaperCanvasView.h */,
+				4ACF6B4719717826007F557E /* PaperCanvasView.m */,
+			);
+			path = CanvasView;
+			sourceTree = "<group>";
+		};
+		4ACF6B4819717826007F557E /* CanvasViewGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B4919717826007F557E /* CanvasViewGenerator.h */,
+				4ACF6B4A19717826007F557E /* CanvasViewGenerator.m */,
+				4ACF6B4B19717826007F557E /* ClothCanvasViewGenerator.h */,
+				4ACF6B4C19717826007F557E /* ClothCanvasViewGenerator.m */,
+				4ACF6B4D19717826007F557E /* PaperCanvasViewGenerator.h */,
+				4ACF6B4E19717826007F557E /* PaperCanvasViewGenerator.m */,
+			);
+			path = CanvasViewGenerator;
+			sourceTree = "<group>";
+		};
+		4ACF6B4F19717826007F557E /* Mark */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B5019717826007F557E /* Dot.h */,
+				4ACF6B5119717826007F557E /* Dot.m */,
+				4ACF6B5219717826007F557E /* Mark.h */,
+				4ACF6B5319717826007F557E /* Stroke.h */,
+				4ACF6B5419717826007F557E /* Stroke.m */,
+				4ACF6B5519717826007F557E /* Vertex.h */,
+				4ACF6B5619717826007F557E /* Vertex.m */,
+			);
+			path = Mark;
+			sourceTree = "<group>";
+		};
 		4AE98BB3196909580080A597 = {
 			isa = PBXGroup;
 			children = (
@@ -138,27 +178,11 @@
 		4AE98BC5196909580080A597 /* Scribbbbble */ = {
 			isa = PBXGroup;
 			children = (
+				4ACF6B4119717826007F557E /* CanvasView */,
+				4ACF6B4819717826007F557E /* CanvasViewGenerator */,
+				4ACF6B4F19717826007F557E /* Mark */,
 				4AE98BCE196909580080A597 /* AppDelegate.h */,
 				4AE98BCF196909580080A597 /* AppDelegate.m */,
-				4A4103B519690AF8003A8204 /* Mark.h */,
-				4A4103B619690EEB003A8204 /* Vertex.h */,
-				4A4103B719690EEB003A8204 /* Vertex.m */,
-				4A4103B919692896003A8204 /* Dot.h */,
-				4A4103BA19692896003A8204 /* Dot.m */,
-				4A4103C219693BBF003A8204 /* Stroke.h */,
-				4A4103C319693BBF003A8204 /* Stroke.m */,
-				4A5873E7196B8CA800F64013 /* CanvasView.h */,
-				4A5873E8196B8CA800F64013 /* CanvasView.m */,
-				4A5873ED196B94EB00F64013 /* PaperCanvasView.h */,
-				4A5873EE196B94EB00F64013 /* PaperCanvasView.m */,
-				4A5873F0196B950700F64013 /* ClothCanvasView.h */,
-				4A5873F1196B950700F64013 /* ClothCanvasView.m */,
-				4A5873E4196B8B9800F64013 /* CanvasViewGenerator.h */,
-				4A5873E5196B8B9800F64013 /* CanvasViewGenerator.m */,
-				4A5873F3196B95F000F64013 /* PaperCanvasViewGenerator.h */,
-				4A5873F4196B95F000F64013 /* PaperCanvasViewGenerator.m */,
-				4A5873F6196B960400F64013 /* ClothCanvasViewGenerator.h */,
-				4A5873F7196B960400F64013 /* ClothCanvasViewGenerator.m */,
 				4A5873F9196B980F00F64013 /* CanvasViewController.h */,
 				4A5873FA196B980F00F64013 /* CanvasViewController.m */,
 				4AE98BD1196909580080A597 /* Images.xcassets */,
@@ -292,17 +316,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE98BD0196909580080A597 /* AppDelegate.m in Sources */,
-				4A4103C419693BBF003A8204 /* Stroke.m in Sources */,
-				4A5873F2196B950700F64013 /* ClothCanvasView.m in Sources */,
-				4A4103B819690EEB003A8204 /* Vertex.m in Sources */,
-				4A5873EF196B94EB00F64013 /* PaperCanvasView.m in Sources */,
-				4A5873F5196B95F000F64013 /* PaperCanvasViewGenerator.m in Sources */,
+				4ACF6B5F19717826007F557E /* Vertex.m in Sources */,
+				4ACF6B5E19717826007F557E /* Stroke.m in Sources */,
 				4AE98BCC196909580080A597 /* main.m in Sources */,
-				4A5873E9196B8CA800F64013 /* CanvasView.m in Sources */,
+				4ACF6B5719717826007F557E /* CanvasView.m in Sources */,
+				4ACF6B5D19717826007F557E /* Dot.m in Sources */,
+				4ACF6B5919717826007F557E /* PaperCanvasView.m in Sources */,
 				4A5873FB196B980F00F64013 /* CanvasViewController.m in Sources */,
-				4A5873E6196B8B9800F64013 /* CanvasViewGenerator.m in Sources */,
-				4A5873F8196B960400F64013 /* ClothCanvasViewGenerator.m in Sources */,
-				4A4103BB19692896003A8204 /* Dot.m in Sources */,
+				4ACF6B5B19717826007F557E /* ClothCanvasViewGenerator.m in Sources */,
+				4ACF6B5C19717826007F557E /* PaperCanvasViewGenerator.m in Sources */,
+				4ACF6B5819717826007F557E /* ClothCanvasView.m in Sources */,
+				4ACF6B5A19717826007F557E /* CanvasViewGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
