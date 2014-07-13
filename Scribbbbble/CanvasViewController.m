@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    CanvasViewGenerator * generator = [[CanvasViewGenerator alloc] init];
+    CanvasViewGenerator * generator = [[PaperCanvasViewGenerator alloc] init];
     [self LoadCanvasViewWtihGenerator:generator];
     [generator release];
 }

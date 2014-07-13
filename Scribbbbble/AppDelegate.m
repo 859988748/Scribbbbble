@@ -11,11 +11,13 @@
 #import "Stroke.h"
 #import "Dot.h"
 #import "CanvasViewController.h"
+#import "SetStrokeColorCommand.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     CanvasViewController * canvasVC = [[CanvasViewController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
