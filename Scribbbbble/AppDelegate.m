@@ -12,13 +12,14 @@
 #import "Dot.h"
 #import "CanvasViewController.h"
 #import "SetStrokeColorCommand.h"
+#import "CoordinatingController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    CanvasViewController * canvasVC = [[CanvasViewController alloc] init];
+    CoordinatingController * coor = [CoordinatingController sharedInstance];
+    CanvasViewController * canvasVC = [[CanvasViewController alloc] initWithNibName:@"CanvasViewController" bundle:nil];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

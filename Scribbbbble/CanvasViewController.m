@@ -31,9 +31,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    CanvasViewGenerator * generator = [[PaperCanvasViewGenerator alloc] init];
-    [self LoadCanvasViewWtihGenerator:generator];
-    [generator release];
+//    CanvasViewGenerator * generator = [[PaperCanvasViewGenerator alloc] init];
+//    [self LoadCanvasViewWtihGenerator:generator];
+//    [generator release];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,12 +42,12 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)dealloc{
-    
+
     [super dealloc];
 }
 -(void)LoadCanvasViewWtihGenerator:(CanvasViewGenerator *)aCanvasViweGenrator{
     [_canvasView removeFromSuperview ];
-    CGRect aframe = CGRectMake(0, 0, 320, 568);
+    CGRect aframe = CGRectMake(0, 0, 320, 200);
     self.canvasView = [aCanvasViweGenrator CanvasViewWithFrame:aframe];
     [self.view addSubview:_canvasView];
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A5873FB196B980F00F64013 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5873FA196B980F00F64013 /* CanvasViewController.m */; };
+		4A6C0DA41973ABA200E93EED /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C0DA31973ABA200E93EED /* CanvasViewController.xib */; };
+		4A6C0DA71973AC5900E93EED /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C0DA61973AC5900E93EED /* CoordinatingController.m */; };
 		4ACF6B5719717826007F557E /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4319717826007F557E /* CanvasView.m */; };
 		4ACF6B5819717826007F557E /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4519717826007F557E /* ClothCanvasView.m */; };
 		4ACF6B5919717826007F557E /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4719717826007F557E /* PaperCanvasView.m */; };
@@ -46,6 +48,9 @@
 /* Begin PBXFileReference section */
 		4A5873F9196B980F00F64013 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		4A5873FA196B980F00F64013 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		4A6C0DA31973ABA200E93EED /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
+		4A6C0DA51973AC5900E93EED /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		4A6C0DA61973AC5900E93EED /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
 		4ACF6B4219717826007F557E /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		4ACF6B4319717826007F557E /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		4ACF6B4419717826007F557E /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
@@ -192,6 +197,9 @@
 				4AE98BCF196909580080A597 /* AppDelegate.m */,
 				4A5873F9196B980F00F64013 /* CanvasViewController.h */,
 				4A5873FA196B980F00F64013 /* CanvasViewController.m */,
+				4A6C0DA31973ABA200E93EED /* CanvasViewController.xib */,
+				4A6C0DA51973AC5900E93EED /* CoordinatingController.h */,
+				4A6C0DA61973AC5900E93EED /* CoordinatingController.m */,
 				4AE98BD1196909580080A597 /* Images.xcassets */,
 				4AE98BC6196909580080A597 /* Supporting Files */,
 			);
@@ -313,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6C0DA41973ABA200E93EED /* CanvasViewController.xib in Resources */,
 				4AE98BCA196909580080A597 /* InfoPlist.strings in Resources */,
 				4AE98BD2196909580080A597 /* Images.xcassets in Resources */,
 			);
@@ -339,6 +348,7 @@
 				4AE98BCC196909580080A597 /* main.m in Sources */,
 				4ACF6B5719717826007F557E /* CanvasView.m in Sources */,
 				4ACF6B5D19717826007F557E /* Dot.m in Sources */,
+				4A6C0DA71973AC5900E93EED /* CoordinatingController.m in Sources */,
 				4ACF6B5919717826007F557E /* PaperCanvasView.m in Sources */,
 				4A5873FB196B980F00F64013 /* CanvasViewController.m in Sources */,
 				4AF148E91972C55000F3D080 /* SetStrokeColorCommand.m in Sources */,
